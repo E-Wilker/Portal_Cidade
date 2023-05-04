@@ -15,7 +15,7 @@
 
     </head>
 
-    <body id="duas-colunas" class="home"><!----alterar esta classe de acordo com a página e menu de navegação correspondente, home para home, brasil para brasil e assim sucessivamente ---->
+    <body id="tres-colunas" class="home"><!----alterar esta classe de acordo com a página e menu de navegação correspondente, ---->
 
         >
         <div id="container"><!-----------------INICIO CONTAINER---------------------->
@@ -30,30 +30,77 @@
         <!-----------abertura do Menu de navegação superior----------->
 
                 <ul id="navegacao">
-
                     <li class="primeiro"><a id="home" href="index.html">Home</a></li><!----- retirado a imagem divisor a esquerda-------->
-
                     <li><a id="brasil" href="index.html">Brasil</a></li>
                     <li><a id="internacional" href="index.html">Internacional</a></li>
                     <li><a id="economia" href="index.html">Economia</a></li>
                     <li><a id="saude" href="index.html">Saúde</a></li>
                     <li><a id="ciencias" href="index.html">Ciências</a></li>
                     <li><a id="fotos" href="index.html">Fotos</a></li>
-
-        <!---------- // fechamento do menu de navegação ------------->
-
-                </ul>
+                </ul><!---------- // fechamento do menu de navegação ------------->
             </div><!------------ FIM TOPO --------------->
-
+            
         <div id="conteudo"><!-------INICIO CONTEUDO ------->
 
-            <div id="primario">Primário</div>
+            <!----------------------------------------------------------------------------------------------INICIO PRIMARIO------------>
+
+            <div id="primario">
+                <div class="caixa">
+                    <h2>Entrevistas</h2>
+                    <div class="caixa-conteudo">
+                        conteudo <br>
+                        conteudo <br>
+                        conteudo <br>
+                        conteudo <br>
+                        conteudo <br> 
+                    </div>
+                </div>
+            </div>
+            <!-----------------------------------------------------------------------------------------------------FIM PRIMARIO--->
+
             <div id="secundario">Secundário</div>
-            <div id="lateral">Lateral</div>
 
-        </div><!---------------------FIM CONTEUDO --------->
+        <!-------------------------------------------------------------------------------------------------------INICIO LATERAL--->
 
-        </div><!----------------------------- FIM CONTAINER ------------------------------>
+            <div id="lateral">
+                <div class="caixa">
+                    <h2>Entrevistas</h2>
+                    <div class="caixa-conteudo">
+                        <ul>
+                            <li><a href="">José Almeida</a></li>
+                            <li><a href="">Felipe Silva</a></li>
+                            <li><a href="">Renato Rodrigues</a></li>
+                            <li><a href="">Abelardo Silveira</a></li>
+                            <li><a href="">André Mello</a></li>
+                            <li><a href="">João Pedro</a></li>
+                            <li><a href="">Fernado Weiss</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="caixa">
+                    <h2>News</h2>
+                    <div class="caixa-conteudo">
+                        <form>
+                            <div>
+                                <label for="email">Email: </label>
+                                <input type="text" name="email" id="email" placeholder="e-mail">
+                                <div>
+                                    <input type="submit" name="Cadastar">
+                                </div>
+                            </div>
+                        </form>
+                 
+                    </div>
+                </div>
+            </div>
+        
+        <!---------------------------------------------------------------------------------------------------------FIM LATERAL--->
+
+
+        </div><!---------------------------------------------------------------FIM CONTEUDO ---->
+
+        </div><!--------------------------------------------------------------FIM CONTAINER ---->
 
         <div id="container-rodape" style="clear: both;"> 
             <div id="rodape"> 
