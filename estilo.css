@@ -89,11 +89,25 @@ body.fotos #navegacao a#fotos
     margin-top: 60px;
 }
 
-#primario{
+#lateral{
+    width: 180px;
+    float: left; 
+    margin: 0 0 20px -750px;
+    background: yellow;
+}
+
+#tres-colunas #primario{
      width: 270px;
      float: left;
      margin: 0 0 20px 195px;
      background: blue;
+}
+
+#duas-colunas #primario{
+    width: 555px;
+    float: left;
+    margin: 0 0 20px 195px;
+    background: blue;
 }
 
 #secundario{
@@ -101,13 +115,6 @@ body.fotos #navegacao a#fotos
     float: left;
     margin:0 0 20px 15px;
     background: green;
-}
-
-#lateral{
-    width: 180px;
-    float: left; 
-    margin: 0 0 20px -750px;
-    background: yellow;
 }
 
 /**** Rodape ******/ 
