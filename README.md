@@ -1,5 +1,5 @@
 # Portal_Cidade
->Fictitious project of a news portal
+>Fictitious project of a news portal.
  
 ### OBJECTIVE
 >Exercise knowledge acquired during the study of HTML 5, CSS3, page design with one, two and three columns, creation of horizontal and vertical navigation bar.
